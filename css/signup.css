@@ -1,0 +1,108 @@
+#signUp{
+    width: 100%;
+    height:94vh;
+    border-top: 1px solid;
+    display: flex;
+}
+.signUp{
+    padding:0 2rem;
+    
+}
+#desktop_singup{
+ padding: 0.5rem 2rem;
+}
+#icons_header{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 0px solid black;
+}
+.backgroumd_signup{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/brands3.png);
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.info_signup{
+    width: 100%;
+    /* height: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.info_signup h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f5b840;
+    padding: 1rem 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+form label{
+    color: #f5b840;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+   
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    width: 60%;
+
+}
+#username,#email,#password{
+    font-size: 0.7rem;
+}
+.done{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 34%; */
+}
+.done button{
+    background-color: #f5b840;
+    font-weight: 600;
+    padding: 0.1rem 2rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border: 0;
+    font-size: 0.8rem;
+}
+.done button a{
+    /* font-size: 1.1rem; */
+    text-decoration: none;
+    color: black;
+}
+.back_home a{
+    color: #0070a8;
+font-size: 0.8rem;
+text-decoration: none;
+}
+
+@media screen and (max-width: 992px){
+    .backgroumd_signup{
+        display: none;
+    }
+}

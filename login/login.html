@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="../img/phone logo.png">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/weboLIP.css">
+    <link rel="stylesheet" href="../css/medyaQ.css">
+    <link rel="stylesheet" href="../css/lip/anmated/animate.css">
+    <link rel="stylesheet" href="../css/lip/bootstrab/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="body_webo">
+    <div class="col-12 backgroumd body_webo">
+        <div class="info_desktop " id="desktop_login">
+            <div class=" icons_header" id="icons_header">
+                <div class="info_icons_hedear">
+                <span> <i class="fa-brands fa-facebook"></i> </span>
+                <span><i class="fa-brands fa-x-twitter"></i></span>
+                <span><i class="fa-brands fa-linkedin"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+            <div class=" config">
+                <div>
+                    <label for=""><i class="fa-solid fa-dollar-sign"></i></label>
+                    <select id="pick-currency">
+                        <option value="USD">USD</option>
+                        <option value="EGP">EGP</option>
+                        <option value="AED">AED</option>
+                        <option value="SAR">SAR</option>
+                    </select>
+                </div>
+                <div>
+                    <label for=""><i class="fa-solid fa-flag"></i></label>
+                    <select id="pick-lang">
+                        <option value="en">EN</option>
+                        <option value="ar">AR</option>
+                    </select>
+                </div>
+                <div>
+                    <label for=""><i class="fa-solid fa-earth-americas"></i></label>
+                    <select id="pick-country">
+                        <option value="Egypt">Egypt</option>
+                        <option value="United States">United States</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Emirats">Emirats</option>
+                    </select>
+                </div>
+                <div></div>
+            </div>
+               </div>
+        </div>
+
+
+<section class="col-12" id="login" >
+    <div class="col-12 col-md-12 col-lg-8 backgroumd_login"></div>
+    <div class="col-12 col-md-12 col-lg-4 login">
+        <div class="col-12 back_home"> <a href="../index.html"><i class="fa-solid fa-chevron-left"></i> Go back</a></div>
+            <div class="info_login">
+                <h2>Login</h2>
+              <form action="" class="formlogin">
+                <label for="e">EMAIL</label>
+                <!-- <input id="email" type="email" placeholder="enter yor email"> -->
+                <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                <label for="p">PASSWORD</label>
+                <input type="password" name="password" id="password" placeholder="PASSWORD" required>
+                <div class="eror">
+                    
+                </div>
+              </form>
+              
+              <div class="done">
+                <!-- <button id="btn_login" onclick="login()"> <a href="#">Login</a></button> -->
+                <button onclick="login()"> login</button>
+                <button onclick="gologin()">create account</button>
+                
+              </div> 
+            </div>
+    </div>
+</section>
+</div>
+<style>
+    .not{
+        color: red;
+    }
+    .dg{
+        color: greenyellow;
+    }
+</style>
+
+         <script src="../script/auth.js"></script>
+    <script src="../css/lip/bootstrab/bootstrap.js"></script>
+    <script src="../css/lip/FA/all.js"></script>
+    <script src="../css/lip/WOW/WOW.js"></script>
+    <script>
+        new WOW().init();
+      </script>
+</body>
+</html>

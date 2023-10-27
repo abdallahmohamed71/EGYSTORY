@@ -1,0 +1,275 @@
+@media screen and (max-width: 575px){
+    .display_in_medya{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .dis_on_sale{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+    }
+    .info_Featured_Trending{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .info_Featured ,.info_Trending {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .btn_Featured_Trending button {
+     
+        padding: 0;
+        
+    }
+ .Copyright{
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .Copyright p{
+    font-size: 0.7rem;
+ }
+}
+@media screen and (min-width: 575px) and (max-width: 767px){}
+@media screen and (max-width: 767px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        padding: 4rem 0;
+        text-align: center;
+    }
+    .footer h2{
+        
+        padding:0 ;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 992px){
+
+    }
+
+@media screen and (min-width: 767px) and (max-width: 992px){}
+@media screen and (max-width: 992px){
+    #desktop{
+        padding: 0;
+        min-height: 10vh;
+        
+    }
+ 
+    .img_logo img {
+        /* width: 100%; */
+        height:100%;
+        
+    }
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display:block;
+    }
+    .info_desktop{
+        background-color: #f5b841;
+        box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.603);  
+    }
+    .icons_header{
+        display: none;
+    }
+    #iconsearch{
+        display:block;
+        padding:0 0.5rem;
+    }
+    .search,.yourcarts{
+        display: none;
+    }
+    .logoandsearch{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+  
+    .menuicon{
+        display: flex;
+    }
+  
+    #menu{
+        display: block;    
+}
+#menu span{
+    background-color: black;
+}
+label{
+    visibility: hidden;
+}
+select{
+    width: 100%;
+    background-color: #f5b841;
+}
+nav{
+    width: 100%;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    z-index: 30;
+    align-content: center;
+    display: none;
+    justify-content: center;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul .lihome{
+    color: white;
+    background-color:#103045;
+    
+}
+nav ul li a {
+    font-size: 2rem;
+}
+nav ul .lihome a .ih{
+    font-size: 2rem;
+    color: white;
+}
+.img_login{
+    display: none;
+}
+.licart{
+    display: block;
+}
+.lilogin{
+    display:block;
+}
+.trans{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.trans select{
+    border: 0;
+    color: white;
+    width: 2rem;
+    background-color:#103045 ;
+}
+/* ......................shoping */
+/* محتاجه div h2 */
+.Best_Seller {    
+    display: flex;
+    flex-direction: column;
+}
+.config{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: none;
+}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1100px){}
+@media screen and (max-width: 1100px){
+   
+
+}
+@media screen and (max-width: 1250px){
+    #ordercat{
+        order: 2;
+        padding: 2rem 0;
+    }
+    #carsoul{order: 1;}
+    #orderBest_Se{order: 3;}
+    .display_in_medya{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1300px){}
+@media screen and (max-width:1300px) {
+    #carsoul{
+        width: 100%;
+        /* padding: 2rem 0; */
+    }
+    /* .................. */
+   
+    .pro{
+        padding: 0rem 1rem;
+        display: flex;
+    }
+    .pro .img_onsale img{
+        padding: 1rem;
+    }
+    /* ............ */
+    .dis_on_sale{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    /* ............. */
+    .pro_Featured_Trending{
+        padding: 1rem 0;
+        padding-left: 0;
+    }
+    /* .................. */
+    .ads{
+        padding: 1rem 0;
+        padding-left: 0;
+    }
+    .adsandtestimonial {
+        padding: 0 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ............... */
+    #shoping{
+        /* min-height: 130vh; */
+        padding: 2rem 0;
+        margin: 1rem 0;
+    }
+    .categories{
+        width: 100%;
+       /* min-height: 80vh; */
+       
+        }
+        .Best_Seller{
+            /* min-height: 80vh; */
+        }
+        #carsoul{
+            /* min-height: 20vh; */
+        }
+    .shoping{
+        padding: 0 1rem;
+    }
+  
+    /* ........................ */
+          .Featured_Trending{
+            padding: 0 1rem;
+          }
+          #logofooter{
+            display:flex;
+            width: 100%;
+          }
+}
+
+

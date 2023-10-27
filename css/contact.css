@@ -1,0 +1,246 @@
+#contact{
+    width: 100%;
+    padding: 4rem 0;
+}
+.contact{
+    padding:0 5rem ;
+    min-height: 55vh;
+}
+.crds_contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card_contact{
+     padding: 1rem;
+}
+.backg_card_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 2px solid #252525;
+    justify-content: space-evenly;
+}
+.card_contact div span{
+    background-color: #103045;
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+.card_contact div span .ic{
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.card_contact div span:hover> .ic{
+    color:#69727d;
+    fill: #fff;
+}
+.card_contact div h3{
+       font-size: 1rem;
+       font-weight: 700;
+       color: #252525;
+       padding: 1rem 0;
+}
+.card_contact div p{
+   font-size: 1rem;
+   margin: 0;
+   line-height: 22px;
+   color: #776c65;
+
+}
+/* ...................form */
+#form{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #F0F0F1;
+}
+.form{
+    padding:0 8rem;
+    min-height: 70vh;
+}
+.cards_input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4rem;
+    justify-content: space-between;
+}
+.cards_input input{
+    width: 100%;
+    border: 1px solid #dedede;
+    font-size: 1rem;
+    padding: 0.9rem;
+    outline: 0;
+
+}
+.Card_input{
+   max-width: 32%;
+}
+.erea{
+    display: flex;
+    padding: 0 4rem;
+    flex-direction: column;
+    align-items: center;
+}
+.textarea{
+ width: 100%;
+    margin-top: 2rem;
+    border: 1px solid #dedede;
+    outline: 0;
+    gap: 10px 0;
+    padding: 0.9rem;
+
+}
+.erea a {
+    color: white;
+    background-color: #1e1e1e;
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 1rem;
+}
+.erea a:hover{
+    color: white;
+    background-color: #4b4a4a;
+}
+.info_form{
+    display: flex;
+    justify-content: center;
+    padding: 0 4rem;
+    flex-direction: column;
+    align-items: center;
+}
+.info_form h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #252525;
+}
+.info_form  p{
+    font-size: 1.1rem;
+    color: #776c65;
+}
+
+/* ..........................footer */
+footer{
+    width: 100%;
+    min-height: 40vh;
+    background-color: #06141e;
+  }
+  .footer{
+    width: 100%;
+    padding: 0 4rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  .footer ul li{
+    list-style: none;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color:#406174;
+    transition: 0.5s;
+  }
+  .footer ul li a:hover{
+    color: white;
+  }
+  .footer ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    align-items: flex-start;
+  
+  }
+  .footer h2{
+    font-size: 2.5rem;
+    padding: 1rem ;
+  }
+  .footer h3{
+    font-size: 1.5rem;
+  }
+  .Copyright{
+    display: flex;
+    height: 10vh;
+    color: white;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    color: var(--e-global-color-text);
+    font-size: 1rem;
+    
+    
+  }
+  .Copyright div{
+    color: white;
+  }
+  .hr{
+    width: 100%;
+    height: 0.1rem;
+    background-color: #656565;
+  }
+  @media screen and (max-width:1300px) {
+    .Featured_Trending{
+        padding: 0 1rem;
+      }
+      #logofooter{
+        display:flex;
+        width: 100%;
+      }
+  }
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    /* .....................contact */
+   
+    .contact{
+        padding: 0 2rem;
+    }
+
+}
+@media screen and (max-width:1300px) {
+    .cardteam{
+        max-width: none;
+    }
+    .form{
+        padding: 0 2rem;
+    }
+    .cards_input{
+        gap: 15px 0;
+        padding: 0;
+    }
+    .cards_input input{
+        width: 100%;
+    }
+    .erea{
+        padding: 0;
+    }
+    .info_form{
+        padding: 0;
+    }
+    .info_form h2{
+        font-size: 2rem;
+    }
+    .Card_input{
+        max-width:none;
+     }
+}
